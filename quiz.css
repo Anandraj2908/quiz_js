@@ -1,0 +1,59 @@
+body{
+    background-image:linear-gradient(130deg,rgba(0, 255, 21, 0.7),rgba(77, 128, 0, 0.7),rgba(196, 196, 36, 0.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+h1{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+.problems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.disabledPrblm{
+    display: none;
+}
+#option{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.nextDis{
+    display: none;
+}
+.enabledStart{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.enabledStart button{
+    border-radius: 10px;
+}
+.disabledStart{
+    display: none;
+}
+.disabledResult{
+    display: none;
+}
+.res{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+}
